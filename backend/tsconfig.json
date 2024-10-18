@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "moduleResolution": "node16",  // Updated to support modern modules
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "**/*.ts",
+    "eslint.config.mjs",
+    "eslint-js.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
